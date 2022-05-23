@@ -1,150 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White Store</title>
-    <link rel="icon" type="image/x-icon" href="img/icon.jpg">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-    <script src="js/wow.min.js"></script>
-    <script> new WOW().init(); </script>
-  
-<style>
-body{
-    direction: rtl;
-    font-family: 'Cairo', sans-serif;
-    background-color: #f0f2f5;
-}
-.header {
-    width: 100%;
-    background-image: url(../siteimg/hands.jpg);
-    background-size: cover;
-    z-index: 1;
-}
-.navbar-toggler-icon{
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(89, 126, 212)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-.navbar-toggler{
-  border: 2px solid #597ed4;
-}
-.crd{
-  width: 20rem;
-  max-height: 32rem;
-}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>White Store</title>
+  <link rel="icon" type="image/x-icon" href="img/icon.jpg">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <script src="js/wow.min.js"></script>
+  <script> new WOW().init(); </script>
 
-.card {
-  background: #fff;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
-  transition: 2s transform cubic-bezier(.155, 1.105, .295, 1.12), 2s box-shadow, 2s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-  border-radius: 1rem;
-  background-color:#cdedf1;
-}
-.card-img,
-.card-img-top {
-  border-top-left-radius: calc(1rem);
-  border-top-right-radius: calc(1rem)
-}
-.card h5 {
-  overflow: hidden;
-  height: 90px;
-  color: #1d3279;
-  text-align: center;
-  font-weight: bold;
-}
-.card-img-top {
-  width: 100%;
-  height: 14rem;
-  border: 0;
-}
-.card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.12), 0 4px 8px rgba(0, 0, 0, .06)
-}
-.btn {
-  font-size: 1rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  padding: 5px 40px 5px 40px;
-  line-height: 40px;
-}
-.btn-warning {
-  background: none #597ed4;
-  color: #ffffff;
-  border: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: -1px 6px 19px rgba(73, 121, 211, 0.25);
-  border-radius: 100px;
-}
-.btn-warning:hover {
-  background: none #1d3279;
-  color: #ffffff;
-  box-shadow: -1px 6px 13px rgba(82, 105, 206, 0.35)
-}
-.price-hp {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: rgb(148, 143, 143)
-}
-.footnav{
-  color: #597ed4;
-  font-size: 18px;
-  font-weight: bold;
-}
-.footnav:hover{
-  background:#597ed4;
-  color: #fff;
-  border: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: -1px 6px 19px rgba(0, 0, 0, 0.25);
+  <style>
+    body {
+      direction: rtl;
+      font-family: 'Cairo', sans-serif;
+      background-color: #f0f2f5;
+    }
 
-}
-.wel{
-  background-color: #597ed4;
-  max-width: 80%;
-  box-shadow: -1px 6px 19px rgba(73, 121, 211, 0.25);
-  transition: 3s transform cubic-bezier(.155, 2.105, .295, 1.12), 3s box-shadow, 3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-}
-.wel:hover{
-  transform: scale(1.07);
-}
+    .header {
+      width: 100%;
+      background-image: url(../siteimg/hands.jpg);
+      background-size: cover;
+      z-index: 1;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(89, 126, 212)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar-toggler {
+      border: 2px solid #597ed4;
+    }
+
+    .crd {
+      width: 20rem;
+      max-height: 32rem;
+    }
+
+    .card {
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+      transition: 2s transform cubic-bezier(.155, 1.105, .295, 1.12), 2s box-shadow, 2s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+      border-radius: 1rem;
+      background-color: #cdedf1;
+    }
+
+    .card-img,
+    .card-img-top {
+      border-top-left-radius: calc(1rem);
+      border-top-right-radius: calc(1rem)
+    }
+
+    .card h5 {
+      overflow: hidden;
+      height: 90px;
+      color: #1d3279;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 14rem;
+      border: 0;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 10px 20px rgba(255, 255, 255, 0.12), 0 4px 8px rgba(0, 0, 0, .06)
+    }
+
+    .btn {
+      font-size: 1rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      padding: 5px 40px 5px 40px;
+      line-height: 40px;
+    }
+
+    .btn-warning {
+      background: none #597ed4;
+      color: #ffffff;
+      border: none;
+      text-decoration: none;
+      outline: 0;
+      box-shadow: -1px 6px 19px rgba(73, 121, 211, 0.25);
+      border-radius: 100px;
+    }
+
+    .btn-warning:hover {
+      background: none #1d3279;
+      color: #ffffff;
+      box-shadow: -1px 6px 13px rgba(82, 105, 206, 0.35)
+    }
+
+    .price-hp {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: rgb(148, 143, 143)
+    }
+
+    .footnav {
+      color: #597ed4;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .footnav:hover {
+      background: #597ed4;
+      color: #fff;
+      border: none;
+      text-decoration: none;
+      outline: 0;
+      box-shadow: -1px 6px 19px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .wel {
+      background-color: #597ed4;
+      max-width: 80%;
+      box-shadow: -1px 6px 19px rgba(73, 121, 211, 0.25);
+      transition: 3s transform cubic-bezier(.155, 2.105, .295, 1.12), 3s box-shadow, 3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    }
+
+    .wel:hover {
+      transform: scale(1.07);
+    }
+
     .scrollToTop {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    color: #ffffff;
-    bottom: 30px;
-    right: -40px;
-    position: fixed;
-    border-radius: 5px;
-    background: #597ed4;
-    text-align: center;
-    font-size: 16px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      color: #ffffff;
+      bottom: 30px;
+      right: -40px;
+      position: fixed;
+      border-radius: 5px;
+      background: #597ed4;
+      text-align: center;
+      font-size: 16px;
     }
-    .show{
-    right: 20px;
-    transition: all .5s ease-in-out;
+
+    .show {
+      right: 20px;
+      transition: all .5s ease-in-out;
     }
-    .fixed-top{
+
+    .fixed-top {
       background-color: #244dad;
       opacity: .9;
       transition: all 0.25s ease-in-out;
     }
-    .srch{
+
+    .srch {
       color: #fff !important;
       border-color: #fff !important;
     }
-    .srch:hover{
+
+    .srch:hover {
       background-color: #748ec5;
       border-color: #748ec5;
     }
+
     .tm ul {
       display: flex;
       margin-bottom: 10px;
@@ -152,89 +175,103 @@ body{
 
     .tm ul li {
       list-style: none;
-      background: #829ad3;
-      padding: 8px 20px;
       margin: 5px;
-      letter-spacing: 1px;
-      cursor: pointer;
       color: #fff;
+      display: flex;
+      cursor: pointer;
+      padding: 8px 20px;
+      text-align: center;
+      border-radius: 4px;
+      font-size: 18px;
+      align-items: center;
+      background-color: #829ad3;
     }
-    .tm ul li.active{
+
+    .tm ul li.active {
       background: #597ed4;
     }
-    .lbt:hover{
+
+    .lbt:hover {
       transition: 3s transform cubic-bezier(.155, 2.105, .295, 1.12), 3s box-shadow, 3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
       transform: scale(1.2);
     }
-</style>
+  </style>
 </head>
+
 <body lang="ar">
-        <div class="container border-bottom border-3" style="background-color: #ffffff; margin-bottom: 0;" id="top">
-          <nav class="navbar navbar-expand-lg h5">
-          <a class="scrollToTop"><i class="fas fa-angle-up"></i></a>
-          <a class="navbar-brand up" id="logo" href="#"><img src="img/logo.png" alt="بلو ستور" style=" transform-style: preserve-3d;
+  <div class="container border-bottom border-3" style="background-color: #ffffff; margin-bottom: 0;" id="top">
+    <nav class="navbar navbar-expand-lg h5">
+      <a class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+      <a class="navbar-brand up" id="logo" href="#"><img src="img/logo.png" alt="بلو ستور" style=" transform-style: preserve-3d;
             animation: bel2 5s infinite alternate;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>  
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-          <a class="nav-link active footnav" aria-current="page" href="#">الصفحة الرئيسية</a>
+            <a class="nav-link active footnav" aria-current="page" href="#">الصفحة الرئيسية</a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link footnav" href="#all">المنتجات</a>
           </li>
-          
 
-              <li class="nav-item">
-                <a class="nav-link footnav" href="#">سلة المشتريات</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link footnav">حسابي</a>
-              </li>
-            </ul>
 
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="ابحث عن طلبك هنا" aria-label="Search" style="border: 1px solid #597ed4;">
-              <button class="btn btn-outline-primary sech" type="submit" style="margin-right: 10px;">ابحث</button>
-            </form>
-    </div>
+          <li class="nav-item">
+            <a class="nav-link footnav" href="#">سلة المشتريات</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link footnav">حسابي</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="ابحث عن طلبك هنا" aria-label="Search"
+            style="border: 1px solid #597ed4;">
+          <button class="btn btn-outline-primary sech" type="submit" style="margin-right: 10px;">ابحث</button>
+        </form>
+      </div>
     </nav>
   </div>
 
-    <div class="container p-0"> 
-      <div id="carouselExampleCaptions" class="carousel slide border border-2 border-primary" data-bs-ride="carousel">
-        <div class="col carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner wow fadeInDown">
-          <div class="carousel-item active">
-            <img src="img/carosel/1.jpg" class="d-block w-100" alt="بلو ستور">
-            <div class="carousel-caption d-none d-md-block">
-              <h4>مرحبا بكم في بلو ستور</h4>
-              <h5>لدينا العديد من المنتجات التي قد تنال اعجابكم</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/carosel/2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/carosel/3.jpg" class="d-block w-100" alt="...">
+  <div class="container p-0">
+    <div id="carouselExampleCaptions" class="carousel slide border border-2 border-primary" data-bs-ride="carousel">
+      <div class="col carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner wow fadeInDown">
+        <div class="carousel-item active">
+          <img src="img/carosel/1.jpg" class="d-block w-100" alt="بلو ستور">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>مرحبا بكم في بلو ستور</h4>
+            <h5>لدينا العديد من المنتجات التي قد تنال اعجابكم</h5>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="img/carosel/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carosel/3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
 
@@ -242,193 +279,219 @@ body{
 
       <div class="row pt-4 proud" style="background-color: #ffffff; color: #597ed4; font-weight: bold;">
         <h1 class="wow fadeInRight" style="text-align: center;">المنتجات</h1>
-        <p class="mt-3 wow fadeInLeft" style="text-align: center; font-size: 18px;">يمكنك اضافة ما يعجبك الى سلة المشتريات</p>
+        <p class="mt-3 wow fadeInLeft" style="text-align: center; font-size: 18px;">يمكنك اضافة ما يعجبك الى سلة
+          المشتريات</p>
 
         <div class="container tm">
-          <ul class="justify-content-center" >
-            <li class="list active wow fadeInRight" data-filter="all">كل المنتجات</li>
+          <ul class="justify-content-center">
+            <li class="list active wow fadeInRight" data-filter="all">المنتجات</li>
             <li class="list wow fadeInRight" data-filter="shoes">أحذية</li>
             <li class="list wow fadeInRight" data-filter="clothes">ملابس</li>
-          </ul>  
+          </ul>
 
 
           <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3 mt-4 justify-content-center product">
 
             <div class="col mb-4 crd wow fadeInRight item-box shoes" data-wow-duration="2s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/sh/1.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
-  
-            <div class="col mb-4 crd wow fadeInLeft item-box clothes"  data-wow-duration="1s">
+
+            <div class="col mb-4 crd wow fadeInLeft item-box clothes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/cl/cl1.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
-  
-            <div class="col mb-4 crd wow fadeInRight item-box shoes"  data-wow-duration="1s">
+
+            <div class="col mb-4 crd wow fadeInRight item-box shoes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/sh/2.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
-  
-            <div class="col mb-4 crd wow fadeInLeft item-box clothes"  data-wow-duration="1s">
+
+            <div class="col mb-4 crd wow fadeInLeft item-box clothes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/cl/cl2.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
 
             <div class="col mb-4 crd wow fadeInLeft item-box shoes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/sh/3.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
-  
+
             <div class="col mb-4 crd wow fadeInRight item-box clothes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/cl/cl3.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
 
             <div class="col mb-4 crd wow fadeInLeft item-box shoes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/sh/4.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
-  
-            <div class="col mb-4 crd wow fadeInRight item-box clothes"  data-wow-duration="1s">
+
+            <div class="col mb-4 crd wow fadeInRight item-box clothes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/cl/cl4.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
 
             <div class="col mb-4 crd wow fadeInDown item-box shoes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/sh/5.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
-  
-            <div class="col mb-4 crd wow fadeInDown item-box clothes"  data-wow-duration="1s">
+
+            <div class="col mb-4 crd wow fadeInDown item-box clothes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/cl/cl5.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
 
             <div class="col mb-4 crd wow fadeInDown item-box shoes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/sh/6.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
-  
-            <div class="col mb-4 crd wow fadeInDown item-box clothes"  data-wow-duration="1s">
+
+            <div class="col mb-4 crd wow fadeInDown item-box clothes" data-wow-duration="1s">
               <div class="card h-100 w-100 shadow-sm"> <img src="img/card/cl/cl6.PNG" class="card-img-top" alt="adidas">
-              <div class="card-body">
-                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span> <span class="float-end price-hp">1250€</span> </div>
-                <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام  والتأكد من جودة الصناعة</h5>
-                <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
+                <div class="card-body">
+                  <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Adidas</span>
+                    <span class="float-end price-hp">1250€</span> </div>
+                  <h5 class="card-title">كوتشي اصلي ومتاح معاينة المنتج قبل الاستلام والتأكد من جودة الصناعة</h5>
+                  <div class="text-center my-4"> <a href="#" class="btn btn-warning">اضف الى السلة</a> </div>
                 </div>
               </div>
             </div>
-  
+
           </div>
-          </div>
-  
+        </div>
+
 
         <div class="container mt-4" id="products" style="padding-right: 4rem; padding-left: 4rem;">
 
-          
+
 
           <div class="row pt-4 justify-content-center" style="background-color: #ffffff; color: #ffffff;">
             <div class="col p-4 wel wow shake" data-wow-duration="2s">
-            <h1 style="text-align: center;">شكرا لكم</h1>
-            <p class="mt-3" style="text-align: center; font-size: 22px;">لزيارتكم لنا نتمنى أن يكون قد نال موقعنا إعجابكم</p>
-        </div>
+              <h1 style="text-align: center;">شكرا لكم</h1>
+              <p class="mt-3" style="text-align: center; font-size: 22px;">لزيارتكم لنا نتمنى أن يكون قد نال موقعنا
+                إعجابكم</p>
+            </div>
 
-          <div class="container" style="padding-right: 10%; padding-left: 10%;">
-            
-            <footer class="row py-3 my-4">
-              <ul class="col nav justify-content-center border-bottom border-primary pb-3 mb-3 h5 wow fadeInLeft" data-wow-duration="2s">
-                <li class="nav-item" style=" transform-style: preserve-3d; animation: tel 1s infinite alternate; margin-left: 1.5rem;"><a href="#" class="nav-link px-2 footnav">الصفحة الرئيسية</a></li>
-                <li class="nav-item" style=" transform-style: preserve-3d; animation: tel2 1s infinite alternate; margin-left: 1.5rem;"><a href="#all" class="nav-link px-2 footnav">المنتجات</a></li>
-                <li class="nav-item" style=" transform-style: preserve-3d; animation: tel 1s infinite alternate; margin-left: 1.5rem;"><a href="#" class="nav-link px-2 footnav">سلة المشتريات</a></li>
-                <li class="nav-item" style=" transform-style: preserve-3d; animation: tel2 1s infinite alternate; margin-left: 1.5rem;"><a href="#" class="nav-link px-2 footnav">حسابي</a></li>
-                <li class="nav-item" style=" transform-style: preserve-3d; animation: tel 1s infinite alternate; margin-left: 1.5rem;"><a href="#" class="nav-link px-2 footnav">من نحن</a></li>
-              </ul>
+            <div class="container" style="padding-right: 10%; padding-left: 10%;">
 
-              <a class="up wow fadeInDown lbt" data-wow-duration="2s" href="#top">
-              <img class="rounded mx-auto d-block mt-4" src="img/logo.png" alt="وايت ستور" style="max-width: 120px; animation: tel 2s infinite alternate;">
-              </a>
+              <footer class="row py-3 my-4">
+                <ul class="col nav justify-content-center border-bottom border-primary pb-3 mb-3 h5 wow fadeInLeft"
+                  data-wow-duration="2s">
+                  <li class="nav-item"
+                    style=" transform-style: preserve-3d; animation: tel 1s infinite alternate; margin-left: 1.5rem;"><a
+                      href="#" class="nav-link px-2 footnav">الصفحة الرئيسية</a></li>
+                  <li class="nav-item"
+                    style=" transform-style: preserve-3d; animation: tel2 1s infinite alternate; margin-left: 1.5rem;">
+                    <a href="#all" class="nav-link px-2 footnav">المنتجات</a></li>
+                  <li class="nav-item"
+                    style=" transform-style: preserve-3d; animation: tel 1s infinite alternate; margin-left: 1.5rem;"><a
+                      href="#" class="nav-link px-2 footnav">سلة المشتريات</a></li>
+                  <li class="nav-item"
+                    style=" transform-style: preserve-3d; animation: tel2 1s infinite alternate; margin-left: 1.5rem;">
+                    <a href="#" class="nav-link px-2 footnav">حسابي</a></li>
+                  <li class="nav-item"
+                    style=" transform-style: preserve-3d; animation: tel 1s infinite alternate; margin-left: 1.5rem;"><a
+                      href="#" class="nav-link px-2 footnav">من نحن</a></li>
+                </ul>
 
-            </footer>
-          </div>
+                <a class="up wow fadeInDown lbt" data-wow-duration="2s" href="#top">
+                  <img class="rounded mx-auto d-block mt-4" src="img/logo.png" alt="وايت ستور"
+                    style="max-width: 120px; animation: tel 2s infinite alternate;">
+                </a>
 
-            
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/tools.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.6.0.js"
-  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-  crossorigin="anonymous"></script>
-<script>
-  $(document).ready(function(){
-  $('.list').click(function(){
-    const value = $(this).attr('data-filter');
-    if(value == 'all'){
-      $('.item-box').show('1000');
-    }else {
-      $('.item-box').not('.' + value).hide('1000');
-      $('.item-box').filter('.' + value).show('1000');
-    } })
-    $('.list').click(function(){
-      $(this).addClass('active').siblings().removeClass('active');
-    })
+              </footer>
+            </div>
 
-  })
 
-</script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/tools.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.js"
+              integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+            <script>
+              $(document).ready(function () {
+                $('.list').click(function () {
+                  const value = $(this).attr('data-filter');
+                  if (value == 'all') {
+                    $('.item-box').show('1000');
+                  } else {
+                    $('.item-box').not('.' + value).hide('1000');
+                    $('.item-box').filter('.' + value).show('1000');
+                  }
+                })
+                $('.list').click(function () {
+                  $(this).addClass('active').siblings().removeClass('active');
+                })
+
+              })
+
+            </script>
 </body>
+
 </html>
